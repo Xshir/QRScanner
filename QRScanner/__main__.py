@@ -1,6 +1,6 @@
 # This file is the modified version of sample_code.py
 
-#most importantly for this code to run is to import OpenCV which we do in the below line
+# most importantly for this code to run is to import OpenCV which we do in the below line
 import cv2
 
 # set up camera object called Cap which we will use to find OpenCV
