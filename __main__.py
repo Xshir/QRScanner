@@ -1,13 +1,15 @@
-# This file is the modified version of sample_code.py
+# This file is the modified version of sample_code.py 
 
 # most importantly for this code to run is to import OpenCV which we do in the below line
 import cv2
 
 # set up camera object called Cap which we will use to find OpenCV
-cap = cv2.VideoCapture(-1)
+cap = cv2.VideoCapture(0)
+print(type(cap), cap)
 
 # QR code detection Method
 detector = cv2.QRCodeDetector()
+print(type(detector), detector)
 
 #This creates an Infinite loop to keep your camera searching for data at all times
 while True:
